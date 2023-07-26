@@ -1,19 +1,19 @@
 import { useState } from "react";
 
-function MainPage() {
+function Home() {
   const [count, setCount] = useState(0);
 
   return (
     <>
       <div>
-        main
+        main Home
         <div>
           {count}
-          <button onClick={setCount(count + 1)}></button>
+          <button onClick={() => setCount(count + 1)}>아아아아</button>
         </div>
       </div>
     </>
   );
 }
 
-export default MainPage;
+export default Home;
