@@ -1,0 +1,32 @@
+{
+  "serial": "P-003",
+  "img": "images/2023/Promo/P_003.png",
+  "type": "cookie",
+  "level": 1,
+  "color": "green",
+  "name": "P_003",
+  "hp": 3,
+  "hasSkill": true,
+  "skill": {
+    "condition": ["myTurn"],
+    "cost": {},
+    "text": "text_p003_skill_text",
+    "effect": {
+      "damageIncrease": 1
+    }
+  },
+  "attack": [
+    {
+      "cost": {
+        "green": 2
+      },
+      "text": "text_p003_attack_text",
+      "damage": 1
+    }
+  ],
+  "hasFlip": false,
+  "flip": {},
+  "rarity": "P",
+  "from": "promo",
+  "releaseDate": "2023-09-01"
+}

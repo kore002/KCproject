@@ -1,0 +1,17 @@
+.card{
+    width: 140px;
+    height: 200px;
+    margin: 5px;
+    border: 1px solid black;
+}
+.asdf{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.card_block{
+    margin: 150px;
+    max-width: 1400px;
+    max-height: 500px;
+    overflow-y: auto;
+}

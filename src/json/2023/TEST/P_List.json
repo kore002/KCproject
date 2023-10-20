@@ -1,0 +1,196 @@
+[
+  {
+    "info" : {
+      "serial": "P-001",
+      "img": "images/2023/Promo/P_001.png",
+      "type": "cookie",
+      "level": 1,
+      "color": ["red"],
+      "name": "P_001",
+      "hp": 3,
+      "hasSkill": true,
+      "rarity": "P",
+      "from": "promo",
+      "releaseDate": "2023-09-01"
+  },
+    
+  "skill" : {
+    "condition": ["myTurn"],
+    "cost": {
+      "red" : 1,
+      "green" : 0,
+      "yellow" : 0,
+      "blue" : 0,
+      "purple" : 0,
+      "mix" : 0
+    },
+    "text": "text_p001_skill_text"
+  },
+  
+  "attack":
+   {
+      "attack_cost" : {
+        "red" : 2,
+        "green" : 0,
+        "yellow" : 0,
+        "blue" : 0,
+        "purple" : 0,
+        "mix" : 0
+      },
+      "effect_cost" : {
+       "red" : 2,
+       "green" : 0,
+       "yellow" : 0,
+       "blue" : 0,
+       "purple" : 0,
+       "mix" : 0
+     },
+     "attack_text": "text_p001_attack_text <<",
+     "effect_text" : ">> asdf",
+     "damage": 1
+    },
+  
+    "flip" : {
+      "hasFlip": false,
+      "flip_cost" : {
+        "red" : 0,
+        "green" : 0,
+        "yellow" : 0,
+        "blue" : 0,
+        "purple" : 0,
+        "mix" : 0
+      },
+      "flip_text" : ""
+    }
+  }
+
+  ,{
+  "info" : {
+    "serial": "P-002",
+    "img": "images/2023/Promo/P_002.png",
+    "type": "cookie",
+    "level": 1,
+    "color": ["yellow"],
+    "name": "P_002",
+    "hp": 3,
+    "hasSkill": true,
+    "rarity": "P",
+    "from": "promo",
+    "releaseDate": "2023-09-01"
+},
+  
+"skill" : {
+  "condition": ["myTurn"],
+  "cost": {
+    "red" : 0,
+    "green" : 0,
+    "yellow" : 2,
+    "blue" : 0,
+    "purple" : 0,
+    "mix" : 0
+  },
+  "text": "text_p002_skill_text"
+},
+
+"attack":
+ {
+    "attack_cost" : {
+      "red" : 0,
+      "green" : 0,
+      "yellow" : 2,
+      "blue" : 0,
+      "purple" : 0,
+      "mix" : 0
+    },
+    "effect_cost" : {
+     "red" : 0,
+     "green" : 0,
+     "yellow" : 1,
+     "blue" : 0,
+     "purple" : 0,
+     "mix" : 0
+   },
+   "attack_text": "text_p001_attack_text <<",
+   "effect_text" : ">> asdf",
+   "damage": 1
+  },
+
+  "flip" : {
+    "hasFlip": false,
+    "flip_cost" : {
+      "red" : 0,
+      "green" : 0,
+      "yellow" : 0,
+      "blue" : 0,
+      "purple" : 0,
+      "mix" : 0
+    },
+    "flip_text" : ""
+  }
+}
+,{
+  "info" : {
+    "serial": "P-003",
+    "img": "images/2023/Promo/P_003.png",
+    "type": "cookie",
+    "level": 1,
+    "color": ["green"],
+    "name": "P_003",
+    "hp": 3,
+    "hasSkill": true,
+    "rarity": "P",
+    "from": "promo",
+    "releaseDate": "2023-09-01"
+},
+  
+"skill" : {
+  "condition": ["myTurn"],
+  "cost": {
+    "red" : 0,
+    "green" : 1,
+    "yellow" : 0,
+    "blue" : 0,
+    "purple" : 0,
+    "mix" : 1
+  },
+  "text": "text_p001_skill_text"
+},
+
+"attack":
+ {
+    "attack_cost" : {
+      "red" : 0,
+      "green" : 1,
+      "yellow" : 0,
+      "blue" : 0,
+      "purple" : 0,
+      "mix" : 0
+    },
+    "effect_cost" : {
+     "red" : 0,
+     "green" : 1,
+     "yellow" : 0,
+     "blue" : 0,
+     "purple" : 0,
+     "mix" : 0
+   },
+   "attack_text": "text_p001_attack_text <<",
+   "effect_text" : ">> asdf",
+   "damage": 1
+  },
+
+  "flip" : {
+    "hasFlip": false,
+    "flip_cost" : {
+      "red" : 0,
+      "green" : 0,
+      "yellow" : 0,
+      "blue" : 0,
+      "purple" : 0,
+      "mix" : 0
+    },
+    "flip_text" : ""
+  }
+}
+  
+]
