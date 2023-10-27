@@ -34,12 +34,12 @@ function MainPage() {
       <>
         {
           cost_arr.map((item, index) => (
-            item == "red" ? <img src={RedCost} alt="" key={index}></img> :
-            item == "green" ? <img src={GreenCost} alt="" key={index}></img> :
-            item == "yellow" ? <img src={YellowCost} alt="" key={index}></img> :
-            item == "blue" ? <img src="" alt="" key={index}></img> :
-            item == "purple" ? <img src="" alt="" key={index}></img> :
-            item == "mix" ? <img src={MixCost} alt="" key={index}></img> : <></>
+            item == "red" ? <img src={RedCost} alt="" key={index} className="cost_icon"></img> :
+            item == "green" ? <img src={GreenCost} alt="" key={index} className="cost_icon"></img> :
+            item == "yellow" ? <img src={YellowCost} alt="" key={index} className="cost_icon"></img> :
+            item == "blue" ? <img src="" alt="" key={index} className="cost_icon"></img> :
+            item == "purple" ? <img src="" alt="" key={index} className="cost_icon"></img> :
+            item == "mix" ? <img src={MixCost} alt="" key={index} className="cost_icon"></img> : <></>
           ))
         }
       </>
@@ -54,8 +54,8 @@ function MainPage() {
               <div>name : {item.info.name}</div>
               
               <div>skill : 
-                  <span> &lt;&lt;
-                    {costImg(item.skill.cost)} &gt;&gt;
+                  <span> ≪
+                    {costImg(item.skill.cost)} ≫
                     </span>
                   <span>{item.skill.condition} </span> 
                    - {item.skill.text}

@@ -1,0 +1,77 @@
+{
+    "info" : "",
+    "data" : [
+        {
+            "info" : {
+              "serial": "ST1-001",
+              "serial_box": "ST1",
+              "img": "src/images/2023/ST1/ST1_01.png",
+              "type": "cookie",
+              "level": 2,
+              "color": ["red"],
+              "name": "공주맛 쿠키",
+              "hp": 2,
+              "hasSkill": false,
+              "rarity": "C",
+              "from": "스타터 덱 [썬키스드]",
+              "releaseDate": "2023-09-01"
+          },
+            
+          "skill" : {
+            "hasSkill": false,
+            "condition": [""],
+            "cost": {
+              "red" : 0,
+              "green" : 0,
+              "yellow" : 0,
+              "blue" : 0,
+              "purple" : 0,
+              "mix" : 0
+            },
+            "text": ""
+          },
+          
+          "attack":
+           {
+              "attack_cost" : {
+                "red" : 2,
+                "green" : 0,
+                "yellow" : 0,
+                "blue" : 0,
+                "purple" : 0,
+                "mix" : 0
+              },
+              "effect_cost" : {
+               "red" : 0,
+               "green" : 0,
+               "yellow" : 0,
+               "blue" : 0,
+               "purple" : 0,
+               "mix" : 0
+             },
+             "attack_text": "2대미지를 준다.",
+             "effect_text" : "",
+             "damage": 2
+            },
+          
+            "flip" : {
+              "hasFlip": true,
+              "condition": {
+                "handTrash": 1,
+                "flip_cost" : {
+                  "red" : 0,
+                  "green" : 0,
+                  "yellow" : 0,
+                  "blue" : 0,
+                  "purple" : 0,
+                  "mix" : 0
+                }
+              },
+              "effect": {
+                "heal": 1
+              },
+              "flip_text" : "《패를 1장 버린다》 이 카드를 HP로 사용했던 쿠키에게 HP를 +1한다."
+            }
+          }
+    ]
+}

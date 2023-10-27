@@ -15,3 +15,7 @@
     max-height: 500px;
     overflow-y: auto;
 }
+.cost_icon{
+    width: 15px;
+    height: 15px;
+}
